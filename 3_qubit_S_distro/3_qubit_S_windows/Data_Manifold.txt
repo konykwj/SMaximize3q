@@ -1,0 +1,12 @@
+Names of different trials, in the form "Name", n, ln. State is given off to the right.
+Must be appended manually. 
+
+W,15,300			sin(theta)*cos(phi)*S3.loo+sin(theta)*sin(phi)*S3.olo+cos(phi)*S3.ool
+GGHZ,25,500			cos(theta)*S3.ooo+sin(theta)*S3.lll
+GGHZ,10,200			cos(theta)*S3.ooo+sin(theta)*S3.lll
+MS1,25,500			1.0/2.0**.5*(S3.ooo+cos(theta)*S3.lol+sin(theta)*S3.lll)
+MS2,25,500			1.0/2.0**.5*(S3.ooo+cos(theta)*S3.llo+sin(theta)*S3.lll)
+Chi,25,500			1.0/2.0**.5*(sin(theta)*S3.ooo+sin(theta)*S3.oll+cos(theta)*S3.llo-cos(theta)*S3.lol)
+Star,25,500			1.0/2.0**.5*(cos(theta)*(S3.lll+S3.loo)+sin(theta)*(S3.olo+S3.ool))
+base,15,200			cos(theta)*cos(phi)*S3.lll+cos(theta)*sin(phi)*S3.loo+sin(theta)*cos(phi)*S3.olo+sin(theta)*sin(phi)*S3.ool
+topplate,15,200			2.0**-0.5*(cos(theta)*S3.lll+sin(theta)*S3.loo+cos(phi)*S3.olo+sin(phi)*S3.ool)
